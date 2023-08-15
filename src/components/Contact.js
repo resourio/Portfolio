@@ -26,7 +26,7 @@ const Icons = styled.div`
 const IconButtons = styled.button`
 	border-radius: 15px;
 	border: 3px solid;
-	size: auto;
+
 	:hover {
 		cursor: pointer;
 	}

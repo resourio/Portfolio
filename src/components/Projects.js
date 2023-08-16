@@ -6,10 +6,7 @@ const GridStyle = styled.div`
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: stretch;
 	padding-top: 5em;
-	box-sizing: border-box;
-
 	@media only screen and (max-width: 872px) {
 		display: flex;
 		flex-direction: column;
@@ -30,10 +27,12 @@ const Projects = () => {
 						target='_blank'
 						rel='noreferrer'
 					>
-						<img src='./assets/doomLogo.png' alt='Coming soon!x' height='200' />
+						<img src='./assets/doomLogo.png' alt='Project Demo' height='200' />
 					</a>
 					<p> A "Space Invaders" style game.</p>
-					<p>*Warning:There is music!*</p>
+					<i>
+						<b>*Warning:There is music!*</b>
+					</i>
 				</div>
 
 				<div>

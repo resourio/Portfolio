@@ -10,7 +10,9 @@ const Wrapper = styled.div`
 	align-items: baseline;
 	align-content: center;
 	padding-top: 3em;
-	background-color: #07bae8;
+	background-color: #6eb7d3;
+	padding-bottom: 10px;
+	border-bottom: 2px solid teal;
 `;
 
 const LinkWrapper = styled.div`

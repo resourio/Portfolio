@@ -21,7 +21,7 @@ const Photo = styled.img`
 	border: 3px solid white;
 	margin-left: 40px;
 	@media only screen and (max-width: 1000px) {
-		height: 15em;
+		height: 13em;
 	}
 `;
 

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import ContactForm from './ContactForm.js';
 
 const ContactContainer = styled.div`
 	display: flex;
@@ -9,12 +10,16 @@ const ContactContainer = styled.div`
 		display: inline;
 	}
 `;
+const ContactFormContainer = styled.div`
+	display: flex;
+	justify-content: center;
+`;
 
 const Icons = styled.div`
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	width: 20em;
+	width: 25em;
 	justify-content: space-around;
 	@media only screen and (max-width: 600px) {
 		width: auto;
@@ -39,6 +44,7 @@ const Contact = () => {
 	return (
 		<>
 			<ContactContainer>
+				<h2> Contact Info:</h2>
 				<Icons>
 					<a
 						href='https://www.facebook.com/travis.l.darby/'
@@ -125,6 +131,9 @@ const Contact = () => {
 					</a>
 				</Icons>
 			</ContactContainer>
+			<ContactFormContainer>
+				<ContactForm />
+			</ContactFormContainer>
 		</>
 	);
 };

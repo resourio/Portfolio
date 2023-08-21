@@ -18,10 +18,11 @@ const ContainerChildren = styled.div`
 
 const Profile = styled.img`
 	border-radius: 18px;
-	border: 3px solid black;
+	border: 3px solid white;
 	height: 350px;
 	@media only screen and (max-width: 900px) {
 		height: 15em;
+	}
 `;
 const Greeting = styled.h1`
 	padding: 0px;
